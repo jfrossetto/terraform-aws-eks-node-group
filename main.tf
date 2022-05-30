@@ -23,6 +23,7 @@ resource "aws_eks_node_group" "example" {
   ]
 }
 
+
 resource "aws_iam_role" "example" {
   name = "eks-node-group-example"
 
